@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" fill="none">
+  <rect width="600" height="320" rx="20" fill="#F8FAFC"/>
+  <rect x="28" y="34" width="160" height="252" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="44" y="54" width="44" height="44" rx="12" fill="#FFF1F2"/>
+  <text x="56" y="83" font-size="22">🥋</text>
+  <text x="44" y="122" font-family="sans-serif" font-weight="800" font-size="14" fill="#0F172A">1. Dojo Profile</text>
+  <text x="44" y="142" font-family="sans-serif" font-size="11" fill="#64748B">Name, logo, style,</text>
+  <text x="44" y="158" font-family="sans-serif" font-size="11" fill="#64748B">location &amp; batches</text>
+  <rect x="44" y="180" width="128" height="26" rx="6" fill="#F1F5F9"/>
+  <text x="54" y="197" font-family="sans-serif" font-weight="600" font-size="10" fill="#334155">Shotokan Karate</text>
+  <rect x="44" y="216" width="128" height="26" rx="6" fill="#F1F5F9"/>
+  <text x="54" y="233" font-family="sans-serif" font-weight="600" font-size="10" fill="#334155">Multi-Branch Ready</text>
+
+  <path d="M198 160H216" stroke="#D9232E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M210 154L217 160L210 166" stroke="#D9232E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="224" y="34" width="160" height="252" rx="14" fill="#0F172A"/>
+  <rect x="240" y="54" width="44" height="44" rx="12" fill="#D9232E"/>
+  <text x="252" y="83" font-size="20">⚡</text>
+  <text x="240" y="122" font-family="sans-serif" font-weight="800" font-size="14" fill="#FFFFFF">2. AI Assembly</text>
+  <text x="240" y="142" font-family="sans-serif" font-size="11" fill="#94A3B8">Generates routines,</text>
+  <text x="240" y="158" font-family="sans-serif" font-size="11" fill="#94A3B8">grading, medals &amp;</text>
+  <text x="240" y="174" font-family="sans-serif" font-size="11" fill="#94A3B8">admission forms</text>
+  <rect x="240" y="196" width="128" height="24" rx="12" fill="#1E293B"/>
+  <text x="254" y="212" font-family="sans-serif" font-weight="700" font-size="10" fill="#34D399">● 11 Modules Ready</text>
+
+  <path d="M394 160H412" stroke="#D9232E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M406 154L413 160L406 166" stroke="#D9232E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="420" y="34" width="152" height="252" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="435" y="54" width="44" height="44" rx="12" fill="#ECFDF5"/>
+  <text x="447" y="83" font-size="20">🌐</text>
+  <text x="435" y="122" font-family="sans-serif" font-weight="800" font-size="14" fill="#0F172A">3. Live Domain</text>
+  <text x="435" y="142" font-family="sans-serif" font-size="11" fill="#64748B">Free .dojo.bd or</text>
+  <text x="435" y="158" font-family="sans-serif" font-size="11" fill="#64748B">custom domain via</text>
+  <text x="435" y="174" font-family="sans-serif" font-weight="700" font-size="11" fill="#D9232E">host.bd</text>
+  <rect x="435" y="196" width="122" height="28" rx="7" fill="#FFF1F2"/>
+  <text x="445" y="214" font-family="monospace" font-weight="700" font-size="9.5" fill="#B91C1C">club.dojo.bd</text>
+</svg>

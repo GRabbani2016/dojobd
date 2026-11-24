@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fee & Payment Management — dojo.bd AI Website Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Launch Bar -->
+  <div class="dojo-topbar">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge-free">FREE LAUNCH</span>
+        <span>AI-powered website builder for Dojos, Karate Academies &amp; Martial Arts Clubs is currently FREE!</span>
+      </div>
+      <div class="d-none d-md-flex align-items-center gap-3">
+        <span><i class="bi bi-globe2 me-1 text-danger"></i>Domain &amp; Hosting Partner: <strong>host.bd</strong></span>
+        <span><i class="bi bi-envelope me-1 text-danger"></i>support@dojo.bd</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation -->
+  <nav class="navbar navbar-expand-lg sticky-top dojo-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/images/logo.svg" alt="dojo.bd Logo" height="42">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#dojoMainNav" aria-controls="dojoMainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="dojoMainNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-lg-center gap-1">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <!-- Features Mega Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="features.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+            <div class="dropdown-menu mega-dropdown-menu">
+              <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom">
+                <div>
+                  <h6 class="fw-bold mb-0 text-dark">Dojo Website Builder &amp; Management Modules</h6>
+                  <small class="text-muted">Click any module below to explore its dedicated feature page</small>
+                </div>
+                <a href="features.html" class="btn btn-sm btn-dojo-outline">All Features Overview <i class="bi bi-arrow-right ms-1"></i></a>
+              </div>
+              <div class="row g-2">
+                <div class="col-md-6">
+                  <a href="feature-ai-website-builder.html" class="mega-item">
+                    <div class="mega-icon"><i class="bi bi-magic"></i></div>
+                    <div>
+                      <div class="fw-bold">AI Website Builder</div>
+                      <small class="text-muted d-block">Instant site generation with zero coding</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="feature-online-admission.html" class="mega-item">
+                    <div class="mega-icon"><i class="bi bi-person-plus"></i></div>
+                    <div>
+                      <div class="fw-bold">Online Student Admission</div>
+                      <small class="text-muted d-block">Digital enrollment & registration forms</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="feature-class-schedule.html" class="mega-item">
+                    <div class="mega-icon"><i class="bi bi-calendar2-week"></i></div>
+                    <div>
+                      <div class="fw-bold">Class Schedule & Routine</div>
+                      <small class="text-muted d-block">Weekly batch timetables & multi-branch routines</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="feature-attendance-tracker.html" class="mega-item">
+                    <div class="mega-icon"><i class="bi bi-clipboard-check"></i></div>
+                    <div>
+                      <div class="fw-bold">Attendance & Progress Tracker</div>
+                      <small class="text-muted d-block">Student attendance & skill milestones</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="feature-fee-management.html" class="mega-item active-feature">
+                    <div class="mega-icon"><i class="bi bi-wallet2"></i></div>
+                    <div>
+                      <div class="fw-bold">Fee & Payment Management</div>
+                      <small class="text-muted d-block">Monthly dues, exam fees & payment logs</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="feature-belt-grading.html" class="mega-item">
+                    <div class="mega-icon"><i class="bi bi-award"></i></div>
+                    <div>
+                      <div class="fw-bold">Instructor & Belt Grading</div>
+                      <small class="text-muted d-block">Sensei profiles, rank exams & promotions</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="feature-certificate-verification.html" class="mega-item">
+                    <div class="mega-icon"><i class="bi bi-patch-check"></i></div>
+                    <div>
+                      <div class="fw-bold">Digital Certificate & ID Verify</div>
+                      <small class="text-muted d-block">Online verification for student IDs & belts</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="feature-medal-showcase.html" class="mega-item">
+                    <div class="mega-icon"><i class="bi bi-trophy"></i></div>
+                    <div>
+                      <div class="fw-bold">Medal & Achievement Showcase</div>
+                      <small class="text-muted d-block">Tournament medals, trophies & honor roll</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="feature-event-tournament.html" class="mega-item">
+                    <div class="mega-icon"><i class="bi bi-flag"></i></div>
+                    <div>
+                      <div class="fw-bold">Event & Tournament Registration</div>
+                      <small class="text-muted d-block">Championships, seminars & camp signups</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="feature-sms-notification.html" class="mega-item">
+                    <div class="mega-icon"><i class="bi bi-chat-dots"></i></div>
+                    <div>
+                      <div class="fw-bold">SMS Notification & Alert</div>
+                      <small class="text-muted d-block">Automated SMS alerts for parents & students</small>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12">
+                  <a href="domain-hosting.html" class="mega-item bg-light">
+                    <div class="mega-icon"><i class="bi bi-hdd-network"></i></div>
+                    <div>
+                      <div class="fw-bold">Custom Domain & Sub-domain Hosting</div>
+                      <small class="text-muted d-block">Free dojo.bd sub-domains or custom domains via host.bd</small>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="templates.html">Templates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="domain-hosting.html">Domain &amp; Hosting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+        </ul>
+
+        <!-- CTA Buttons -->
+        <div class="d-flex align-items-center gap-2">
+          <button type="button" class="btn btn-dojo-outline" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <i class="bi bi-box-arrow-in-right me-1"></i> Login
+          </button>
+          <button type="button" class="btn btn-dojo" data-bs-toggle="modal" data-bs-target="#signupModal">
+            <i class="bi bi-stars me-1"></i> Build Your Dojo Site
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Feature Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+          <li class="breadcrumb-item"><a href="features.html" class="text-white-50 text-decoration-none">Features</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">Fee & Payment Management</li>
+        </ol>
+      </nav>
+      <span class="badge bg-danger mb-2">FINANCE MODULE</span>
+      <h1 class="display-5 fw-bold mb-3">Transparent Dojo Fee, Tuition & Exam Payment Management</h1>
+      <p class="lead opacity-75 mb-4" style="max-width: 820px;">Organize admission fees, monthly training dues, uniform/gear charges, and belt examination fees with clear payment histories and automated reminders.</p>
+      <div class="d-flex flex-wrap gap-3">
+        <button class="btn btn-dojo btn-lg px-4" data-bs-toggle="modal" data-bs-target="#signupModal">
+          <i class="bi bi-rocket-takeoff me-2"></i>Build Your Dojo Site Free
+        </button>
+        <a href="features.html" class="btn btn-outline-light btn-lg px-4">View All 11 Modules</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content with Module Navigation Sidebar -->
+  <section class="py-5">
+    <div class="container py-4">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="p-4 rounded-4 border bg-white shadow-sm sticky-top" style="top: 96px;">
+            <h5 class="fw-bold mb-3 pb-2 border-bottom">All Dojo Modules</h5>
+            <div class="d-flex flex-column gap-1">
+              <a href="feature-ai-website-builder.html" class="feature-nav-pill">
+                <i class="bi bi-magic"></i>
+                <span>AI Website Builder</span>
+              </a>
+              <a href="feature-online-admission.html" class="feature-nav-pill">
+                <i class="bi bi-person-plus"></i>
+                <span>Online Student Admission</span>
+              </a>
+              <a href="feature-class-schedule.html" class="feature-nav-pill">
+                <i class="bi bi-calendar2-week"></i>
+                <span>Class Schedule & Routine</span>
+              </a>
+              <a href="feature-attendance-tracker.html" class="feature-nav-pill">
+                <i class="bi bi-clipboard-check"></i>
+                <span>Attendance & Progress Tracker</span>
+              </a>
+              <a href="feature-fee-management.html" class="feature-nav-pill active">
+                <i class="bi bi-wallet2"></i>
+                <span>Fee & Payment Management</span>
+              </a>
+              <a href="feature-belt-grading.html" class="feature-nav-pill">
+                <i class="bi bi-award"></i>
+                <span>Instructor & Belt Grading</span>
+              </a>
+              <a href="feature-certificate-verification.html" class="feature-nav-pill">
+                <i class="bi bi-patch-check"></i>
+                <span>Digital Certificate & ID Verify</span>
+              </a>
+              <a href="feature-medal-showcase.html" class="feature-nav-pill">
+                <i class="bi bi-trophy"></i>
+                <span>Medal & Achievement Showcase</span>
+              </a>
+              <a href="feature-event-tournament.html" class="feature-nav-pill">
+                <i class="bi bi-flag"></i>
+                <span>Event & Tournament Registration</span>
+              </a>
+              <a href="feature-sms-notification.html" class="feature-nav-pill">
+                <i class="bi bi-chat-dots"></i>
+                <span>SMS Notification & Alert</span>
+              </a>
+              <a href="domain-hosting.html" class="feature-nav-pill">
+                <i class="bi bi-hdd-network"></i>
+                <span>Custom Domain & Sub-domain Hosting</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="mb-5">
+            <span class="section-pill"><i class="bi bi-wallet2"></i> MODULE OVERVIEW</span>
+            <h2 class="fw-bold mb-3">Why Fee & Payment Management Matters for Modern Dojos</h2>
+            <p class="text-secondary">Manual notebooks and scattered spreadsheets often lead to missed tuition renewals and administrative confusion. dojo.bd's Fee & Payment Management module gives dojo administrators a structured ledger for monthly memberships, family discounts, tournament entry fees, and grading fees—paired with timely SMS payment reminders.</p>
+          </div>
+
+          <div class="mb-5">
+            <h3 class="fw-bold mb-4">Key Capabilities &amp; Built-In Tools</h3>
+            <div class="row g-4">
+            <div class="col-md-6">
+              <div class="dojo-card">
+                <div class="feature-icon-box"><i class="bi bi-cash-stack"></i></div>
+                <h5 class="fw-bold">Flexible Fee Categories</h5>
+                <p class="text-muted mb-0">Manage one-time admission fees, monthly tuition, uniform (Gi) packages, and belt exam fees.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="dojo-card">
+                <div class="feature-icon-box"><i class="bi bi-receipt"></i></div>
+                <h5 class="fw-bold">Paid & Due Status Tracking</h5>
+                <p class="text-muted mb-0">Instantly view which students have cleared current month dues and which accounts need a reminder.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="dojo-card">
+                <div class="feature-icon-box"><i class="bi bi-folder-check"></i></div>
+                <h5 class="fw-bold">Digital Payment Records</h5>
+                <p class="text-muted mb-0">Maintain clean, searchable payment histories for every student across months and years.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="dojo-card">
+                <div class="feature-icon-box"><i class="bi bi-bell"></i></div>
+                <h5 class="fw-bold">Automated SMS Due Reminders</h5>
+                <p class="text-muted mb-0">Send polite, automated SMS notifications to guardians before monthly tuition due dates.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <h3 class="fw-bold mb-4">How Fee & Payment Management Works on dojo.bd</h3>
+            <div class="row g-3">
+            <div class="col-md-6 col-lg-3">
+              <div class="dojo-card bg-light border-0">
+                <div class="step-number">01</div>
+                <h5 class="fw-bold">Configure Fee Plans</h5>
+                <p class="text-muted mb-0">Set standard monthly tuition and admission rates per program.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="dojo-card bg-light border-0">
+                <div class="step-number">02</div>
+                <h5 class="fw-bold">Record Student Payments</h5>
+                <p class="text-muted mb-0">Log cash, mobile banking, or bank transfers with receipt references.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="dojo-card bg-light border-0">
+                <div class="step-number">03</div>
+                <h5 class="fw-bold">Track Pending Balances</h5>
+                <p class="text-muted mb-0">Filter unpaid or upcoming dues with one click.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="dojo-card bg-light border-0">
+                <div class="step-number">04</div>
+                <h5 class="fw-bold">Trigger Friendly Reminders</h5>
+                <p class="text-muted mb-0">Send automated SMS notices to parents for timely renewals.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        <div class="p-4 p-md-5 rounded-4 text-white mt-5" style="background: linear-gradient(135deg, #0f172a 0%, #881337 100%);">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-8">
+              <span class="badge bg-danger mb-2">INCLUDED IN DOJO.BD</span>
+              <h3 class="fw-bold mb-2">Ready to Activate Fee & Payment Management for Your Dojo?</h3>
+              <p class="text-light opacity-75 mb-0">Sign up for free today, enter your dojo profile, and launch your complete martial arts website with Fee & Payment Management built right in.</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <button class="btn btn-light btn-lg fw-bold text-danger px-4" data-bs-toggle="modal" data-bs-target="#signupModal">
+                Start Free Now <i class="bi bi-arrow-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+          <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-5 pt-4 border-top">
+            <a href="feature-attendance-tracker.html" class="btn btn-dojo-outline">
+              <i class="bi bi-arrow-left me-1"></i> Previous: Attendance & Progress Tracker
+            </a>
+            <a href="feature-belt-grading.html" class="btn btn-dojo-outline">
+              Next: Instructor & Belt Grading <i class="bi bi-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="dojo-footer">
+    <div class="container">
+      <div class="row g-4 pb-5 border-bottom border-secondary border-opacity-25">
+        <div class="col-lg-4">
+          <img src="assets/images/logo-white.svg" alt="dojo.bd" height="42" class="mb-3">
+          <p class="text-secondary">
+            <strong>dojo.bd</strong> is a specialized AI-powered website builder platform built exclusively for Dojos, Karate academies, Taekwondo clubs, and martial arts federations—enabling instant website creation and club management with zero coding.
+          </p>
+          <div class="d-flex gap-2 mt-3">
+            <span class="badge bg-dark border border-secondary text-light px-3 py-2">
+              <i class="bi bi-server text-danger me-1"></i> Domain &amp; Hosting: host.bd
+            </span>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Platform</h5>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="features.html">All Features</a>
+          <a href="templates.html">Templates</a>
+          <a href="pricing.html">Pricing</a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h5>Dojo Modules</h5>
+          <a href="feature-ai-website-builder.html">AI Website Builder</a>
+          <a href="feature-online-admission.html">Online Student Admission</a>
+          <a href="feature-class-schedule.html">Class Schedule &amp; Routine</a>
+          <a href="feature-belt-grading.html">Instructor &amp; Belt Grading</a>
+          <a href="feature-certificate-verification.html">Certificate &amp; ID Verify</a>
+          <a href="feature-sms-notification.html">SMS Notification &amp; Alerts</a>
+        </div>
+        <div class="col-lg-3">
+          <h5>More Modules &amp; Hosting</h5>
+          <a href="feature-attendance-tracker.html">Attendance &amp; Progress</a>
+          <a href="feature-fee-management.html">Fee &amp; Payment Management</a>
+          <a href="feature-medal-showcase.html">Medal &amp; Achievement Gallery</a>
+          <a href="feature-event-tournament.html">Event &amp; Tournament Signup</a>
+          <a href="domain-hosting.html">Domain &amp; Hosting (host.bd)</a>
+          <a href="about.html#contact-support">Contact &amp; Support</a>
+        </div>
+      </div>
+      <div class="pt-4 d-flex flex-wrap justify-content-between align-items-center text-secondary">
+        <div>&copy; 2026 <strong>dojo.bd</strong> — AI-Powered Dojo &amp; Martial Arts Website Builder. All rights reserved.</div>
+        <div>Domain &amp; Hosting Infrastructure by <a href="https://host.bd" target="_blank" class="d-inline text-white fw-semibold">host.bd</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Free Sign Up / Build Your Dojo Site Modal (Includes Early Access Rollout Note) -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 rounded-4 overflow-hidden shadow-lg">
+        <div class="row g-0">
+          <div class="col-lg-5 bg-dark text-white p-4 d-flex flex-column justify-content-between" style="background: linear-gradient(160deg, #0f172a 0%, #881337 100%);">
+            <div>
+              <span class="badge bg-danger mb-3">100% FREE LAUNCH</span>
+              <h4 class="fw-bold">Launch Your Dojo Website in Minutes</h4>
+              <p class="text-light opacity-75 mt-2">
+                Add your organization name, logo, martial arts style, and location—no coding or developer required.
+              </p>
+              <ul class="list-unstyled mt-4">
+                <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i>Free <code>yourdojo.dojo.bd</code> sub-domain</li>
+                <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i>Class routines, sensei roster &amp; medals</li>
+                <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i>Online admissions &amp; SMS alert tools</li>
+                <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i>Custom domain support via <code>host.bd</code></li>
+              </ul>
+            </div>
+            <div class="small text-light opacity-75 border-top border-light border-opacity-25 pt-3">
+              <i class="bi bi-shield-check me-1"></i> Early registrants receive priority onboarding &amp; sub-domain reservation as full backend features roll out.
+            </div>
+          </div>
+          <div class="col-lg-7 p-4 p-md-5 bg-white">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="fw-bold mb-0">Create Your Free Dojo Account</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <p class="small text-muted mb-3">
+              <i class="bi bi-info-circle text-danger me-1"></i>
+              <strong>Free Launch Onboarding:</strong> Submit your academy details below to reserve your sub-domain and receive your activation link via email.
+            </p>
+            <form id="dojoSignupForm">
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Dojo / Organization Name *</label>
+                <input type="text" id="signupOrgName" class="form-control form-control-lg" placeholder="e.g., Dragon Karate Federation" required>
+              </div>
+              <div class="row g-2 mb-3">
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Email Address *</label>
+                  <input type="email" id="signupEmail" class="form-control" placeholder="sensei@example.com" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Phone Number *</label>
+                  <input type="tel" id="signupPhone" class="form-control" placeholder="+880 1700-000000" required>
+                </div>
+              </div>
+              <div class="row g-2 mb-3">
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Martial Arts Discipline</label>
+                  <select class="form-select">
+                    <option>Karate (Shotokan / Kyokushin)</option>
+                    <option>Taekwondo</option>
+                    <option>Judo / Jujutsu</option>
+                    <option>Kung Fu / Wushu</option>
+                    <option>MMA / Self-Defense</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Preferred Sub-domain</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="dragonkarate">
+                    <span class="input-group-text">.dojo.bd</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Location &amp; Dojo Overview</label>
+                <textarea class="form-control" rows="2" placeholder="City, branches, and a brief note about your dojo..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-dojo w-100 py-2">
+                <i class="bi bi-rocket-takeoff me-1"></i> Build My Dojo Website (Free)
+              </button>
+              <div id="signupFormResponse"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 rounded-4 p-4 shadow">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <img src="assets/images/logo.svg" alt="dojo.bd" height="36">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <h5 class="fw-bold">Sign In to Dojo Dashboard</h5>
+        <p class="text-muted">Manage your generated dojo site, class schedules, student records, and belt gradings.</p>
+        <form onsubmit="event.preventDefault(); alert('Dashboard access activates once your free launch onboarding email is confirmed.');">
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Email Address</label>
+            <input type="email" class="form-control" placeholder="dojo@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Password</label>
+            <input type="password" class="form-control" placeholder="••••••••" required>
+          </div>
+          <button type="submit" class="btn btn-dojo w-100">Login to Dashboard</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
