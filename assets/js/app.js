@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // 3. Certificate Verification Demo (on feature-certificate-verification.html)
+  // 3. Certificate Verification Demo
   const certVerifyBtn = document.getElementById('certVerifyBtn');
   if (certVerifyBtn) {
     certVerifyBtn.addEventListener('click', function () {
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // 4. Free Launch Sign Up Form Handler (Early Access & Priority Onboarding)
+  // 4. Free Launch Sign Up Form Handler
   const signupForm = document.getElementById('dojoSignupForm');
   if (signupForm) {
     signupForm.addEventListener('submit', function (e) {
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // 5. Direct Support Inquiry Form Handler (on about.html)
+  // 5. Direct Support Inquiry Form Handler
   const supportForm = document.getElementById('dojoSupportForm');
   if (supportForm) {
     supportForm.addEventListener('submit', function (e) {
